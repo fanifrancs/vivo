@@ -56,7 +56,8 @@ hr{
 }
 
 #about{
-  background-color: rgb(243, 203, 243);
+  color: gray;
+  background-color: rgb(251, 243, 252);
   font-family: 'Yanone Kaffeesatz', sans-serif;
   font-size: large;
   padding: 10px;

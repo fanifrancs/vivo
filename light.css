@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bellota:wght@700&family=Pacifico&display=swap');
 body{
     margin: 0 5%;
-    background-color: rgb(240, 221, 241);
+    background-color: rgb(251, 243, 252);
 }
 
 *{
@@ -51,15 +51,16 @@ a{
 }
 
 #about{
-    font-family: 'Yanone Kaffeesatz', sans-serif;
-    font-size: large;
-    background-color: rgb(240, 221, 241);
-    border: 1px solid gray;
-    padding: 10px;
-    border-radius: 10px;
-    max-width: 350px;
-    display: flex;
-    margin: 0 auto 0;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: large;
+  color: gray;
+  background-color: rgb(251, 243, 252);
+  border: 1px solid gray;
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 350px;
+  display: flex;
+  margin: 0 auto 0;
 }
 
 button {
