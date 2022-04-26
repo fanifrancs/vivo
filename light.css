@@ -1,57 +1,56 @@
-@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bellota:wght@700&family=Pacifico&display=swap');
-body{
-    margin: 0 5%;
-    background-color: rgb(251, 243, 252);
+*{
+  box-sizing: border-box;
 }
 
-*{
-    box-sizing: border-box;
+body{
+  margin: 0 5%;
+  background-color: rgb(251, 243, 252);
 }
 
 #logo{
-    text-align: center;
-    margin: 0 auto;
-    color: gray;
+  text-align: center;
+  margin: 0 auto;
+  color: gray;
 }
 
 #imglogo{
-    width: 70px;
-    height: 70px;
+  width: 70px;
+  height: 70px;
 }
 
 #thumb{
-    max-width: 350px;
-    height: 480px;
-    background-image: url('./img/thumb1.jpg');
-    background-size: cover;
-    border-radius: 10px;
-    margin: 0 auto 10px;
+  max-width: 350px;
+  height: 480px;
+  background-image: url('./img/thumb1.jpg');
+  background-size: cover;
+  border-radius: 10px;
+  margin: 0 auto 10px;
 }
 
 #themeicon{
-    width: 30px;
-    height: 30px;
-    float: right;
-    cursor: pointer;
-    margin-top: 21px;
+  width: 30px;
+  height: 30px;
+  float: right;
+  cursor: pointer;
+  margin-top: 21px;
 }
 
 #footer{
-    text-align: center;
-    font-size: medium;
-    color: gray;
-    font-family: 'Bellota', cursive;
+  text-align: center;
+  font-size: medium;
+  color: gray;
+  font-family: 'Bellota', cursive;
 }
 
-a{
-    text-decoration: none;
-    color: purple;
-    margin: 0 auto;
+.footer{
+  text-decoration: none;
+  color: purple;
+  margin: 0 auto;
 }
 
 #about{
-  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-family: 'Times New Roman', Times, serif;
   font-size: large;
   color: gray;
   background-color: rgb(251, 243, 252);
@@ -70,37 +69,21 @@ button {
   color: #fff;
   max-width: 350px;
   border: 1px purple solid;
+  border-radius: 20px;
   font-size: larger;
   letter-spacing: 2px;
   padding: 10px 30px;
-  overflow: hidden;
   margin: 10px auto;
-  position: relative;
 }
 
-#divdlbtn{
-    display: flex;
+#download{
+  display: flex;
 }
 
 button:focus {
-  outline: none;
-}
-
-button .circle {
-  position: absolute;
-  background-color: #fff;
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  transform: translate(-50%, -50%) scale(0);
-  animation: scale 0.5s ease-out;
-}
-
-@keyframes scale {
-  to {
-    transform: translate(-50%, -50%) scale(3);
-    opacity: 0;
-  }
+  outline: 1px solid purple;
+  background-color: white;
+  color: purple;
 }
 
 img {
@@ -124,12 +107,4 @@ img {
   transform: translateX(0);
   transition: transform 0.5s ease-in-out;
   border-radius: 10px;
-}
-
-.btn:hover {
-  opacity: 0.9;
-}
-
-.btn:focus {
-  outline: none;
 }
