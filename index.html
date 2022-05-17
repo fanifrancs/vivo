@@ -10,8 +10,10 @@
   <link rel="stylesheet" href="dark.css">
   <link rel="shortcut icon" href="./img/fav.png" type="image/x-icon">
   <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"
+  rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" 
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" 
   />
 </head>
 
@@ -39,30 +41,44 @@
     <button class="download"> Download <i class="fas fa-download"></i></button></a>
   </div>
 
-  <!-- 
-  <div id="music player">
+  <div id="musicplayer">
+    <p class="playerhead">Music player</p>
+    <div id="songimg" class="songimg">
+      <div class="centre"></div>
+    </div>
+
+    <p id="title">C'mon</p>
+    <p id="artiste">Hit the play button</p>
+
+    <div class="btncontainer">
+      <div class="buttons">
+        <button id="prev"><i class="fa-solid fa-backward-step"></i></button>
+        <button id="play"><i class="fa-solid fa-play"></i></button> 
+        <button id="next"><i class="fa-solid fa-forward-step"></i></button>
+      </div>
+    </div>
   </div> 
-  -->
+ 
 
   <div class="carousel">
-      <div class="image-container" id="imgs">
-        <img 
-          src="./img/slide1.jpg"
-          alt="first-image"
-        />
-        <img
-          src="./img/slide2.jpg"
-          alt="second-image"
-        />
-        <img
-          src="./img/slide3.jpg"
-          alt="third-image"
-        />
-        <img
-          src="./img/slide4.jpg"
-          alt="fourth-image"
-        />
-      </div>
+    <div class="image-container" id="imgs">
+      <img 
+        src="./img/slide1.jpg"
+        alt="first-image"
+      />
+      <img
+        src="./img/slide2.jpg"
+        alt="second-image"
+      />
+      <img
+        src="./img/slide3.jpg"
+        alt="third-image"
+      />
+      <img
+        src="./img/slide4.jpg"
+        alt="fourth-image"
+      />
+    </div>
   </div>
 
   <h1 id="footer">&copy Vivo. Made with ♥ by <a class="footer" href="http://franciscobaze.hashnode.dev">Francisco</a></h1>

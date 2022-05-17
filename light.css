@@ -5,7 +5,7 @@
 
 body{
   margin: 0 5%;
-  background-color: rgb(251, 243, 252);
+  background-color: #fbf3fc;
 }
 
 #logo{
@@ -62,7 +62,7 @@ body{
   margin: 0 auto 0;
 }
 
-button {
+.download{
   background-color: purple;
   font-family: 'Bellota', cursive;
   cursor: pointer;
@@ -81,6 +81,10 @@ button {
 }
 
 button:focus {
+  color: purple;
+}
+
+.download:focus {
   outline: 1px solid purple;
   background-color: white;
   color: purple;
@@ -107,4 +111,89 @@ img {
   transform: translateX(0);
   transition: transform 0.5s ease-in-out;
   border-radius: 10px;
+}
+
+#musicplayer{
+  margin: 0 auto 0;
+  display: grid;
+}
+
+.playerhead{
+  color: gray;
+  font-size: large;
+  font-family: 'Bellota', cursive;
+  margin-top: 0;
+}
+
+.btncontainer{
+  display: flex;
+}
+
+.buttons{
+  margin: 0 auto;
+}
+
+p{
+  text-align: center;
+}
+
+p#title{
+  font-size: x-large;
+  margin-bottom: 5px;
+  color: gray;
+}
+
+p#artiste{
+  font-family: 'Bellota', cursive;
+  margin-top: 0;
+  margin-bottom: 5px;
+  color: gray;
+}
+
+button{
+  border: none;
+  background-color: rgb(251, 243, 252);
+  font-size: x-large;
+  color: gray;
+  cursor: pointer;
+  margin: 0 0 10px;
+}
+
+#prev, #next{
+  visibility: hidden;
+}
+
+#play{
+  font-size: 3em;
+}
+
+.songimg{
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  background-size: contain;
+  background-color: gray;
+  margin: 0 auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  animation: rotate 3s linear infinite;
+  animation-play-state: paused;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.centre{
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  background-color: whitesmoke;
 }
